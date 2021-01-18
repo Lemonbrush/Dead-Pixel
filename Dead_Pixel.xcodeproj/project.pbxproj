@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70F516551BEF94D2000274FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F516541BEF94D2000274FD /* main.m */; };
+		70F516581BEF94D2000274FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F516571BEF94D2000274FD /* AppDelegate.m */; };
+		70F5165B1BEF94D2000274FD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5165A1BEF94D2000274FD /* GameScene.m */; };
+		70F5165D1BEF94D2000274FD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 70F5165C1BEF94D2000274FD /* GameScene.sks */; };
+		70F516601BEF94D2000274FD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5165F1BEF94D2000274FD /* GameViewController.m */; };
+		70F516631BEF94D2000274FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F516611BEF94D2000274FD /* Main.storyboard */; };
+		70F516681BEF94D2000274FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F516661BEF94D2000274FD /* LaunchScreen.storyboard */; };
+		70F516731BEF94D2000274FD /* Dead_PixelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F516721BEF94D2000274FD /* Dead_PixelTests.m */; };
+		70F5167E1BEF94D2000274FD /* Dead_PixelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5167D1BEF94D2000274FD /* Dead_PixelUITests.m */; };
+		70F5168D1BEF955C000274FD /* Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5168C1BEF955C000274FD /* Title.m */; };
+		70F516901BEF9565000274FD /* BlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5168F1BEF9565000274FD /* BlockNode.m */; };
+		70F516921BEF9580000274FD /* numbers.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 70F516911BEF9580000274FD /* numbers.atlas */; };
+		70F516A21BEF958C000274FD /* 01 - Star Ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516931BEF958C000274FD /* 01 - Star Ocean.mp3 */; };
+		70F516A31BEF958C000274FD /* 03 - Fast-Fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516941BEF958C000274FD /* 03 - Fast-Fast.mp3 */; };
+		70F516A41BEF958C000274FD /* 04 - Звездное Небо Новосибирска.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516951BEF958C000274FD /* 04 - Звездное Небо Новосибирска.mp3 */; };
+		70F516A51BEF958C000274FD /* 05 - The Cool Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516961BEF958C000274FD /* 05 - The Cool Dance.mp3 */; };
+		70F516A61BEF958C000274FD /* 07 - Doo Wop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516971BEF958C000274FD /* 07 - Doo Wop.mp3 */; };
+		70F516A71BEF958C000274FD /* 08 - Pop Music Will Never Die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516981BEF958C000274FD /* 08 - Pop Music Will Never Die.mp3 */; };
+		70F516A81BEF958C000274FD /* 09 - Ты Не Пройдёшь Шреддера (Bonus Track).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516991BEF958C000274FD /* 09 - Ты Не Пройдёшь Шреддера (Bonus Track).mp3 */; };
+		70F516A91BEF958C000274FD /* 10 - Пектусин  (Bonus Track).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F5169A1BEF958C000274FD /* 10 - Пектусин  (Bonus Track).mp3 */; };
+		70F516AA1BEF958C000274FD /* Bat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 70F5169B1BEF958C000274FD /* Bat.wav */; };
+		70F516AB1BEF958C000274FD /* bum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F5169C1BEF958C000274FD /* bum.mp3 */; };
+		70F516AC1BEF958C000274FD /* chih.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F5169D1BEF958C000274FD /* chih.mp3 */; };
+		70F516AD1BEF958C000274FD /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 70F5169E1BEF958C000274FD /* click.wav */; };
+		70F516AE1BEF958C000274FD /* fon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F5169F1BEF958C000274FD /* fon.mp3 */; };
+		70F516AF1BEF958C000274FD /* probFon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70F516A01BEF958C000274FD /* probFon.mp3 */; };
+		70F516B01BEF958C000274FD /* sfx.wav in Resources */ = {isa = PBXBuildFile; fileRef = 70F516A11BEF958C000274FD /* sfx.wav */; };
+		70F516B21BEF95BF000274FD /* Title.sks in Resources */ = {isa = PBXBuildFile; fileRef = 70F516B11BEF95BF000274FD /* Title.sks */; };
+		70F516B41BEF9620000274FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F516B31BEF9620000274FD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F5166F1BEF94D2000274FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F516481BEF94D2000274FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F5164F1BEF94D2000274FD;
+			remoteInfo = "Dead Pixel";
+		};
+		70F5167A1BEF94D2000274FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F516481BEF94D2000274FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F5164F1BEF94D2000274FD;
+			remoteInfo = "Dead Pixel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70F516501BEF94D2000274FD /* Dead_Pixel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dead_Pixel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F516541BEF94D2000274FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70F516561BEF94D2000274FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70F516571BEF94D2000274FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70F516591BEF94D2000274FD /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		70F5165A1BEF94D2000274FD /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		70F5165C1BEF94D2000274FD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		70F5165E1BEF94D2000274FD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		70F5165F1BEF94D2000274FD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		70F516621BEF94D2000274FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70F516671BEF94D2000274FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70F516691BEF94D2000274FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F5166E1BEF94D2000274FD /* Dead_Pixel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dead_Pixel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F516721BEF94D2000274FD /* Dead_PixelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dead_PixelTests.m; sourceTree = "<group>"; };
+		70F516741BEF94D2000274FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F516791BEF94D2000274FD /* Dead_Pixel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dead_Pixel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F5167D1BEF94D2000274FD /* Dead_PixelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dead_PixelUITests.m; sourceTree = "<group>"; };
+		70F5167F1BEF94D2000274FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F5168B1BEF955C000274FD /* Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Title.h; sourceTree = "<group>"; };
+		70F5168C1BEF955C000274FD /* Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Title.m; sourceTree = "<group>"; };
+		70F5168E1BEF9565000274FD /* BlockNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockNode.h; sourceTree = "<group>"; };
+		70F5168F1BEF9565000274FD /* BlockNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockNode.m; sourceTree = "<group>"; };
+		70F516911BEF9580000274FD /* numbers.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = numbers.atlas; sourceTree = "<group>"; };
+		70F516931BEF958C000274FD /* 01 - Star Ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 - Star Ocean.mp3"; sourceTree = "<group>"; };
+		70F516941BEF958C000274FD /* 03 - Fast-Fast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 - Fast-Fast.mp3"; sourceTree = "<group>"; };
+		70F516951BEF958C000274FD /* 04 - Звездное Небо Новосибирска.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 - Звездное Небо Новосибирска.mp3"; sourceTree = "<group>"; };
+		70F516961BEF958C000274FD /* 05 - The Cool Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 - The Cool Dance.mp3"; sourceTree = "<group>"; };
+		70F516971BEF958C000274FD /* 07 - Doo Wop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 - Doo Wop.mp3"; sourceTree = "<group>"; };
+		70F516981BEF958C000274FD /* 08 - Pop Music Will Never Die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 - Pop Music Will Never Die.mp3"; sourceTree = "<group>"; };
+		70F516991BEF958C000274FD /* 09 - Ты Не Пройдёшь Шреддера (Bonus Track).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 - Ты Не Пройдёшь Шреддера (Bonus Track).mp3"; sourceTree = "<group>"; };
+		70F5169A1BEF958C000274FD /* 10 - Пектусин  (Bonus Track).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 - Пектусин  (Bonus Track).mp3"; sourceTree = "<group>"; };
+		70F5169B1BEF958C000274FD /* Bat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bat.wav; sourceTree = "<group>"; };
+		70F5169C1BEF958C000274FD /* bum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bum.mp3; sourceTree = "<group>"; };
+		70F5169D1BEF958C000274FD /* chih.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chih.mp3; sourceTree = "<group>"; };
+		70F5169E1BEF958C000274FD /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		70F5169F1BEF958C000274FD /* fon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fon.mp3; sourceTree = "<group>"; };
+		70F516A01BEF958C000274FD /* probFon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = probFon.mp3; sourceTree = "<group>"; };
+		70F516A11BEF958C000274FD /* sfx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx.wav; sourceTree = "<group>"; };
+		70F516B11BEF95BF000274FD /* Title.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Title.sks; sourceTree = "<group>"; };
+		70F516B31BEF9620000274FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F5164D1BEF94D2000274FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F5166B1BEF94D2000274FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F516761BEF94D2000274FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F516471BEF94D2000274FD = {
+			isa = PBXGroup;
+			children = (
+				70F516521BEF94D2000274FD /* Dead Pixel */,
+				70F516711BEF94D2000274FD /* Dead PixelTests */,
+				70F5167C1BEF94D2000274FD /* Dead PixelUITests */,
+				70F516511BEF94D2000274FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70F516511BEF94D2000274FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F516501BEF94D2000274FD /* Dead_Pixel.app */,
+				70F5166E1BEF94D2000274FD /* Dead_Pixel.xctest */,
+				70F516791BEF94D2000274FD /* Dead_Pixel.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F516521BEF94D2000274FD /* Dead Pixel */ = {
+			isa = PBXGroup;
+			children = (
+				70F516561BEF94D2000274FD /* AppDelegate.h */,
+				70F516571BEF94D2000274FD /* AppDelegate.m */,
+				70F516591BEF94D2000274FD /* GameScene.h */,
+				70F5165A1BEF94D2000274FD /* GameScene.m */,
+				70F5165C1BEF94D2000274FD /* GameScene.sks */,
+				70F5165E1BEF94D2000274FD /* GameViewController.h */,
+				70F5165F1BEF94D2000274FD /* GameViewController.m */,
+				70F5168E1BEF9565000274FD /* BlockNode.h */,
+				70F5168F1BEF9565000274FD /* BlockNode.m */,
+				70F5168B1BEF955C000274FD /* Title.h */,
+				70F5168C1BEF955C000274FD /* Title.m */,
+				70F516B11BEF95BF000274FD /* Title.sks */,
+				70F516611BEF94D2000274FD /* Main.storyboard */,
+				70F516B31BEF9620000274FD /* Assets.xcassets */,
+				70F516911BEF9580000274FD /* numbers.atlas */,
+				70F516661BEF94D2000274FD /* LaunchScreen.storyboard */,
+				70F516691BEF94D2000274FD /* Info.plist */,
+				70F516531BEF94D2000274FD /* Supporting Files */,
+			);
+			path = "Dead Pixel";
+			sourceTree = "<group>";
+		};
+		70F516531BEF94D2000274FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70F516931BEF958C000274FD /* 01 - Star Ocean.mp3 */,
+				70F516941BEF958C000274FD /* 03 - Fast-Fast.mp3 */,
+				70F516951BEF958C000274FD /* 04 - Звездное Небо Новосибирска.mp3 */,
+				70F516961BEF958C000274FD /* 05 - The Cool Dance.mp3 */,
+				70F516971BEF958C000274FD /* 07 - Doo Wop.mp3 */,
+				70F516981BEF958C000274FD /* 08 - Pop Music Will Never Die.mp3 */,
+				70F516991BEF958C000274FD /* 09 - Ты Не Пройдёшь Шреддера (Bonus Track).mp3 */,
+				70F5169A1BEF958C000274FD /* 10 - Пектусин  (Bonus Track).mp3 */,
+				70F5169B1BEF958C000274FD /* Bat.wav */,
+				70F5169C1BEF958C000274FD /* bum.mp3 */,
+				70F5169D1BEF958C000274FD /* chih.mp3 */,
+				70F5169E1BEF958C000274FD /* click.wav */,
+				70F5169F1BEF958C000274FD /* fon.mp3 */,
+				70F516A01BEF958C000274FD /* probFon.mp3 */,
+				70F516A11BEF958C000274FD /* sfx.wav */,
+				70F516541BEF94D2000274FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70F516711BEF94D2000274FD /* Dead PixelTests */ = {
+			isa = PBXGroup;
+			children = (
+				70F516721BEF94D2000274FD /* Dead_PixelTests.m */,
+				70F516741BEF94D2000274FD /* Info.plist */,
+			);
+			path = "Dead PixelTests";
+			sourceTree = "<group>";
+		};
+		70F5167C1BEF94D2000274FD /* Dead PixelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70F5167D1BEF94D2000274FD /* Dead_PixelUITests.m */,
+				70F5167F1BEF94D2000274FD /* Info.plist */,
+			);
+			path = "Dead PixelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F5164F1BEF94D2000274FD /* Dead_Pixel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F516821BEF94D2000274FD /* Build configuration list for PBXNativeTarget "Dead_Pixel" */;
+			buildPhases = (
+				70F5164C1BEF94D2000274FD /* Sources */,
+				70F5164D1BEF94D2000274FD /* Frameworks */,
+				70F5164E1BEF94D2000274FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dead_Pixel;
+			productName = "Dead Pixel";
+			productReference = 70F516501BEF94D2000274FD /* Dead_Pixel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F5166D1BEF94D2000274FD /* Dead_PixelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F516851BEF94D2000274FD /* Build configuration list for PBXNativeTarget "Dead_PixelTests" */;
+			buildPhases = (
+				70F5166A1BEF94D2000274FD /* Sources */,
+				70F5166B1BEF94D2000274FD /* Frameworks */,
+				70F5166C1BEF94D2000274FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F516701BEF94D2000274FD /* PBXTargetDependency */,
+			);
+			name = Dead_PixelTests;
+			productName = "Dead PixelTests";
+			productReference = 70F5166E1BEF94D2000274FD /* Dead_Pixel.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70F516781BEF94D2000274FD /* Dead_PixelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F516881BEF94D2000274FD /* Build configuration list for PBXNativeTarget "Dead_PixelUITests" */;
+			buildPhases = (
+				70F516751BEF94D2000274FD /* Sources */,
+				70F516761BEF94D2000274FD /* Frameworks */,
+				70F516771BEF94D2000274FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F5167B1BEF94D2000274FD /* PBXTargetDependency */,
+			);
+			name = Dead_PixelUITests;
+			productName = "Dead PixelUITests";
+			productReference = 70F516791BEF94D2000274FD /* Dead_Pixel.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F516481BEF94D2000274FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Александр";
+				TargetAttributes = {
+					70F5164F1BEF94D2000274FD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					70F5166D1BEF94D2000274FD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70F5164F1BEF94D2000274FD;
+					};
+					70F516781BEF94D2000274FD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 70F5164F1BEF94D2000274FD;
+					};
+				};
+			};
+			buildConfigurationList = 70F5164B1BEF94D2000274FD /* Build configuration list for PBXProject "Dead_Pixel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F516471BEF94D2000274FD;
+			productRefGroup = 70F516511BEF94D2000274FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F5164F1BEF94D2000274FD /* Dead_Pixel */,
+				70F5166D1BEF94D2000274FD /* Dead_PixelTests */,
+				70F516781BEF94D2000274FD /* Dead_PixelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F5164E1BEF94D2000274FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F516B01BEF958C000274FD /* sfx.wav in Resources */,
+				70F516A91BEF958C000274FD /* 10 - Пектусин  (Bonus Track).mp3 in Resources */,
+				70F516A51BEF958C000274FD /* 05 - The Cool Dance.mp3 in Resources */,
+				70F516AC1BEF958C000274FD /* chih.mp3 in Resources */,
+				70F516B41BEF9620000274FD /* Assets.xcassets in Resources */,
+				70F516921BEF9580000274FD /* numbers.atlas in Resources */,
+				70F516A21BEF958C000274FD /* 01 - Star Ocean.mp3 in Resources */,
+				70F516A31BEF958C000274FD /* 03 - Fast-Fast.mp3 in Resources */,
+				70F516A61BEF958C000274FD /* 07 - Doo Wop.mp3 in Resources */,
+				70F516AB1BEF958C000274FD /* bum.mp3 in Resources */,
+				70F516B21BEF95BF000274FD /* Title.sks in Resources */,
+				70F516A71BEF958C000274FD /* 08 - Pop Music Will Never Die.mp3 in Resources */,
+				70F516A81BEF958C000274FD /* 09 - Ты Не Пройдёшь Шреддера (Bonus Track).mp3 in Resources */,
+				70F516AD1BEF958C000274FD /* click.wav in Resources */,
+				70F516AA1BEF958C000274FD /* Bat.wav in Resources */,
+				70F516AF1BEF958C000274FD /* probFon.mp3 in Resources */,
+				70F516AE1BEF958C000274FD /* fon.mp3 in Resources */,
+				70F5165D1BEF94D2000274FD /* GameScene.sks in Resources */,
+				70F516A41BEF958C000274FD /* 04 - Звездное Небо Новосибирска.mp3 in Resources */,
+				70F516681BEF94D2000274FD /* LaunchScreen.storyboard in Resources */,
+				70F516631BEF94D2000274FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F5166C1BEF94D2000274FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F516771BEF94D2000274FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F5164C1BEF94D2000274FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F516601BEF94D2000274FD /* GameViewController.m in Sources */,
+				70F516581BEF94D2000274FD /* AppDelegate.m in Sources */,
+				70F5165B1BEF94D2000274FD /* GameScene.m in Sources */,
+				70F516901BEF9565000274FD /* BlockNode.m in Sources */,
+				70F516551BEF94D2000274FD /* main.m in Sources */,
+				70F5168D1BEF955C000274FD /* Title.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F5166A1BEF94D2000274FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F516731BEF94D2000274FD /* Dead_PixelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F516751BEF94D2000274FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F5167E1BEF94D2000274FD /* Dead_PixelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F516701BEF94D2000274FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F5164F1BEF94D2000274FD /* Dead_Pixel */;
+			targetProxy = 70F5166F1BEF94D2000274FD /* PBXContainerItemProxy */;
+		};
+		70F5167B1BEF94D2000274FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F5164F1BEF94D2000274FD /* Dead_Pixel */;
+			targetProxy = 70F5167A1BEF94D2000274FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70F516611BEF94D2000274FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F516621BEF94D2000274FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70F516661BEF94D2000274FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F516671BEF94D2000274FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70F516801BEF94D2000274FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70F516811BEF94D2000274FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F516831BEF94D2000274FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dead Pixel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tort;
+				PRODUCT_NAME = Dead_Pixel;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70F516841BEF94D2000274FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dead Pixel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tort;
+				PRODUCT_NAME = Dead_Pixel;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		70F516861BEF94D2000274FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Dead PixelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander.Dead-PixelTests";
+				PRODUCT_NAME = Dead_Pixel;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dead_Pixel.app/Dead_Pixel";
+			};
+			name = Debug;
+		};
+		70F516871BEF94D2000274FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dead PixelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander.Dead-PixelTests";
+				PRODUCT_NAME = Dead_Pixel;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dead_Pixel.app/Dead_Pixel";
+			};
+			name = Release;
+		};
+		70F516891BEF94D2000274FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Dead PixelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander.Dead-PixelUITests";
+				PRODUCT_NAME = Dead_Pixel;
+				TEST_TARGET_NAME = "Dead Pixel";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70F5168A1BEF94D2000274FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dead PixelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander.Dead-PixelUITests";
+				PRODUCT_NAME = Dead_Pixel;
+				TEST_TARGET_NAME = "Dead Pixel";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F5164B1BEF94D2000274FD /* Build configuration list for PBXProject "Dead_Pixel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F516801BEF94D2000274FD /* Debug */,
+				70F516811BEF94D2000274FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F516821BEF94D2000274FD /* Build configuration list for PBXNativeTarget "Dead_Pixel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F516831BEF94D2000274FD /* Debug */,
+				70F516841BEF94D2000274FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F516851BEF94D2000274FD /* Build configuration list for PBXNativeTarget "Dead_PixelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F516861BEF94D2000274FD /* Debug */,
+				70F516871BEF94D2000274FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F516881BEF94D2000274FD /* Build configuration list for PBXNativeTarget "Dead_PixelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F516891BEF94D2000274FD /* Debug */,
+				70F5168A1BEF94D2000274FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F516481BEF94D2000274FD /* Project object */;
+}
